@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border: 1px solid #111;
+  border-top: none;
+  font-size: 13px;
+  color: #fff;
+}
+
+.state button {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 2px 3px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.state .active {
+  border: 1px solid #111;
+}
+
+.delBtn {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 2px 3px;
+  color: #fff;
+}
